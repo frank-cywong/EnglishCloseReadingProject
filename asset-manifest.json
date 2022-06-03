@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/EnglishCloseReadingProject/static/css/main.baae77d3.css",
-    "main.js": "/EnglishCloseReadingProject/static/js/main.afad070b.js",
-    "static/js/787.28cb0dcd.chunk.js": "/EnglishCloseReadingProject/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/EnglishCloseReadingProject/static/css/main.93bc8b6c.css",
+    "main.js": "/EnglishCloseReadingProject/static/js/main.e887b0c6.js",
+    "static/media/bookCover.png": "/EnglishCloseReadingProject/static/media/bookCover.94641bd14b63f2b8fc63.png",
     "index.html": "/EnglishCloseReadingProject/index.html",
-    "main.baae77d3.css.map": "/EnglishCloseReadingProject/static/css/main.baae77d3.css.map",
-    "main.afad070b.js.map": "/EnglishCloseReadingProject/static/js/main.afad070b.js.map",
-    "787.28cb0dcd.chunk.js.map": "/EnglishCloseReadingProject/static/js/787.28cb0dcd.chunk.js.map"
+    "main.93bc8b6c.css.map": "/EnglishCloseReadingProject/static/css/main.93bc8b6c.css.map",
+    "main.e887b0c6.js.map": "/EnglishCloseReadingProject/static/js/main.e887b0c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.baae77d3.css",
-    "static/js/main.afad070b.js"
+    "static/css/main.93bc8b6c.css",
+    "static/js/main.e887b0c6.js"
   ]
 }

@@ -4,7 +4,7 @@ import "./ScrollableDiv.css";
 const ScrollableDiv = ({data}) => {
 	return (
 		<div className = "ScrollableDiv">
-			<div className = "ScrollableDivContent">
+			<div className = "ScrollableDivTextContent">
 				<div className = "Slide">
 					Lorem ipsum dolor sit amet <br />
 					asdasd
@@ -12,6 +12,16 @@ const ScrollableDiv = ({data}) => {
 				<div className = "Slide">
 					Lorem2 ipsum dolor sit amet <br />
 					asdasd2
+				</div>
+			</div>
+			<div className = "ScrollableDivImageContent">
+				<div className = "Slide">
+					Lorem isdasdpsum dolor sit amet <br />
+					asdasdasd
+				</div>
+				<div className = "Slide">
+					Lorem2 ipsum dolor sit amet <br />
+					asdasd2as
 				</div>
 			</div>
 		</div>

@@ -20,9 +20,10 @@ function App() {
 						<Typography variant = "h2" style={{fontWeight: 600}}>
 							Inversions in Fun Home
 						</Typography>
-						<p style={{paddingTop: "10vh"}}>
+						<p style={{paddingTop: "8vh"}}>
 							To go to the next slide, scroll down, left-click, or press the N key.<br />
 							To go back to the previous slide, scroll up or press the P key.<br />
+							In case you lose focus, click on the slides again to regain focus. <br />
 						</p>
 				</div>,
 				<div>

@@ -4,26 +4,38 @@ import "./ScrollableDiv.css";
 const timers = require('timers-promises');
 
 const ScrollableDiv = ({textData, imageData}) => {
-	const [curElement, setCurElement] = useState(0);
+	const [curElement, setCurElement] = useState(-1);
 	const ref = useRef(null);
-	const moveBackward = () => {if(curElement > 0){setCurElement(curElement - 1);}};
-	const moveForward = () => {if(curElement < textData.length - 1){setCurElement(curElement + 1);}};
+	const updateCurElement = () => {return(Math.floor((10 + window.scrollY - document.getElementById("AppBarID").clientHeight) / ref.current.firstChild.firstChild.clientHeight))};
+	const moveBackward = () => {const newCurElement = updateCurElement(); if(newCurElement >= 0){setCurElement(newCurElement - 1);} else {setCurElement(newCurElement);}};
+	const moveForward = () => {const newCurElement = updateCurElement(); if(newCurElement < textData.length - 1){setCurElement(newCurElement + 1);} else {setCurElement(newCurElement);}};
 	useEffect(() => {
 		//console.log(curElement);
 		//console.log(ref ? "yes" : "no");
-		if(ref.current){
+		if(ref.current.firstChild.firstChild){
 			ref.current.focus();
 			window.scroll({
-				top: ref.current.clientHeight * curElement,
+				top: ref.current.firstChild.firstChild.clientHeight * curElement + document.getElementById("AppBarID").clientHeight,
 				left: 0,
 				behavior: 'smooth'
 			});
-			//console.log(ref.current.scrollTop);
-			//console.log(ref.current.clientHeight);
+			//console.log(ref.current.firstChild.firstChild);
+			//console.log(ref.current.firstChild.firstChild.scrollTop);
+			//console.log("client height: " + ref.current.firstChild.firstChild.clientHeight);
 		}
 	}, [curElement]);
+	useEffect(() => {
+		if(ref.current){
+			ref.current.focus();
+		}
+	});
 	return (
-		<div onClick={() => {moveForward()}} tabIndex = "-1" onKeyPress={(e) => {if(e.key === 'n'){moveForward();} else if (e.key === 'p'){moveBackward();}}} onBlur={async () => {await timers.setTimeout(100); console.log("test"); console.log(ref.current ? "yes" : "no"); ref.current.focus();}} className = "ScrollableDiv" ref={ref} key="mainScrollable">
+		<div 
+		onClick={() => {moveForward()}} 
+		tabIndex = "-1" 
+		onKeyPress={(e) => {if(e.key === 'n'){moveForward();} else if (e.key === 'p'){moveBackward();}}} 
+		onBlur={async () => {await timers.setTimeout(100); ref.current.firstChild.firstChild.focus();}} 
+		className = "ScrollableDiv" ref={ref} key="mainScrollable">
 			<div className = "ScrollableDivTextContent">
 				<>{textData.map((innerContent, i) => {
 					return(<div className = "TextSlide" key={"text" + i}>

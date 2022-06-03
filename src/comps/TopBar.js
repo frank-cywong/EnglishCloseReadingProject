@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 const TopBar = (() => {
 	return(
 		<div>
-			<AppBar position="static">
+			<AppBar position="static" id="AppBarID">
 				<Toolbar>
 					<Typography variant="h6" component="div" sx={{flexGrow: 1, textAlign: "left"}}>
 						Fun Home Close Reading Project <a href="https://github.com/frank-cywong/EnglishCloseReadingProject" style={{color: "#A0A0A0"}}>(Source Code)</a>

@@ -20,7 +20,7 @@ function App() {
 						<Typography variant = "h2" style={{fontWeight: 600}}>
 							Inversions in Fun Home
 						</Typography>
-						<p style={{paddingTop: "110px"}}>
+						<p style={{paddingTop: "10vh"}}>
 							To go to the next slide, scroll down, left-click, or press the N key.<br />
 							To go back to the previous slide, scroll up or press the P key.<br />
 						</p>
@@ -28,12 +28,20 @@ function App() {
 				<div>
 					Lorem2 ipsum dolor sit amet <br />
 					asdasd2
+				</div>,
+				<div>
+					Lorem3 ipsum dolor sit amet <br />
+					asdasd3
 				</div>
 		    ]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
 				<div>
 					Lorem2 ipsum dolor sit amet <br />
 					asdasd2as
+				</div>,
+				<div>
+					Lorem3 ipsum dolor sit amet <br />
+					asdasd3as
 				</div>
 			]}/>
 		</div>

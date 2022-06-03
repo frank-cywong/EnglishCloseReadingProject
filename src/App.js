@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import ScrollableDiv from './comps/ScrollableDiv.js'
+import ThemeProvider from './comps/ThemeProvider.js'
+import TopBar from './comps/TopBar.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+	<ThemeProvider>
+		<div className="App">
+		  <TopBar />
+		  <ScrollableDiv />
+		</div>
+	</ThemeProvider>
   );
 }
 

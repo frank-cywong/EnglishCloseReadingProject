@@ -1,0 +1,11 @@
+.ScrollableDiv {
+	flex-grow: 1;
+	overflow: hidden;
+	position: relative;
+}
+.ScrollableDivContent {
+	overflow: auto;
+}
+.Slide {
+	height: 100vh;
+}

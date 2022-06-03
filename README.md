@@ -1,3 +1,9 @@
+# EnglishCloseReadingProject
+
+Website for close reading project of the book Fun Home for EES86QAM American Literature class. 
+
+Website Link: https://frank-cywong.github.io/EnglishCloseReadingProject
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

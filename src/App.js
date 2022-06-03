@@ -21,7 +21,8 @@ function App() {
 							Inversions in Fun Home
 						</Typography>
 						<p style={{paddingTop: "110px"}}>
-							To go to the next slide, scroll down with a mouse or trackpad.
+							To go to the next slide, scroll down, left-click, or press the N key.<br />
+							To go back to the previous slide, scroll up or press the P key.<br />
 						</p>
 				</div>,
 				<div>

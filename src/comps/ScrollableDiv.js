@@ -5,10 +5,18 @@ const ScrollableDiv = ({textData, imageData}) => {
 	return (
 		<div className = "ScrollableDiv">
 			<div className = "ScrollableDivTextContent">
-				<>{textData}</>
+				<>{textData.map(innerContent => {
+					return(<div className = "TextSlide">
+						{innerContent}
+					</div>);
+				})}</>
 			</div>
 			<div className = "ScrollableDivImageContent">
-				<>{imageData}</>
+				<>{imageData.map(innerContent => {
+					return(<div className = "ImageSlide">
+						{innerContent}
+					</div>);
+				})}</>
 			</div>
 		</div>
 	);

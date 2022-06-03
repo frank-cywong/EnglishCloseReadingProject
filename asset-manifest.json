@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/EnglishCloseReadingProject/static/css/main.93bc8b6c.css",
-    "main.js": "/EnglishCloseReadingProject/static/js/main.e887b0c6.js",
+    "main.css": "/EnglishCloseReadingProject/static/css/main.2dac5f27.css",
+    "main.js": "/EnglishCloseReadingProject/static/js/main.2db56652.js",
     "static/media/bookCover.png": "/EnglishCloseReadingProject/static/media/bookCover.94641bd14b63f2b8fc63.png",
     "index.html": "/EnglishCloseReadingProject/index.html",
-    "main.93bc8b6c.css.map": "/EnglishCloseReadingProject/static/css/main.93bc8b6c.css.map",
-    "main.e887b0c6.js.map": "/EnglishCloseReadingProject/static/js/main.e887b0c6.js.map"
+    "main.2dac5f27.css.map": "/EnglishCloseReadingProject/static/css/main.2dac5f27.css.map",
+    "main.2db56652.js.map": "/EnglishCloseReadingProject/static/js/main.2db56652.js.map"
   },
   "entrypoints": [
-    "static/css/main.93bc8b6c.css",
-    "static/js/main.e887b0c6.js"
+    "static/css/main.2dac5f27.css",
+    "static/js/main.2db56652.js"
   ]
 }

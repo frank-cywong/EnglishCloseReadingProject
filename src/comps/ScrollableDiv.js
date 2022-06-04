@@ -25,10 +25,13 @@ const ScrollableDiv = ({textData, imageData}) => {
 		}
 	}, [curElement]);
 	useEffect(() => {
-		if(ref.current){
-			ref.current.focus();
-		}
-	});
+		const interval = setInterval(() => {
+			if(ref.current){
+				ref.current.focus();
+			}
+		}, 1000);
+		return () => clearInterval(interval);
+	}, []);
 	return (
 		<div 
 		onClick={() => {moveForward()}} 

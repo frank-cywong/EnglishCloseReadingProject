@@ -27,8 +27,9 @@ function App() {
 						</p>
 				</div>,
 				<div>
-					Lorem2 ipsum dolor sit amet <br />
-					asdasd2
+					<Typography variant = "h6">
+						I first noticed these "inversions" in this scene with the mirror. My interest in physics (mirrors) and mathematics (geometric inversions) made this scene stay in my head, and I soon noticed more inversions elsewhere.
+					</Typography>
 				</div>,
 				<div>
 					Lorem3 ipsum dolor sit amet <br />
@@ -36,10 +37,7 @@ function App() {
 				</div>
 		    ]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
-				<div>
-					Lorem2 ipsum dolor sit amet <br />
-					asdasd2as
-				</div>,
+				<img src={require("./img/page98Full.png")}/>,
 				<div>
 					Lorem3 ipsum dolor sit amet <br />
 					asdasd3as

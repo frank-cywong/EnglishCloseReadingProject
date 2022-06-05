@@ -28,12 +28,22 @@ function App() {
 				</div>,
 				<div>
 					<Typography variant = "h6">
-						I first noticed these "inversions" in this scene with the mirror. My interest in physics (mirrors) and mathematics (<a href="https://en.wikipedia.org/wiki/Inversive_geometry#Inversion_in_a_circle" target="_blank" rel="noreferrer noopener" style={{color: "white"}}>geometric inversions</a>) made this scene stay in my head, and I soon noticed more inversions elsewhere.
+						I first noticed these "inversions" in this scene with the mirror. My interest in physics (mirrors) and mathematics (<a href="https://en.wikipedia.org/wiki/Inversive_geometry#Inversion_in_a_circle" target="_blank" rel="noreferrer noopener" style={{color: "white"}}>geometric inversions</a>) made this scene stay in my head.
 					</Typography>
 				</div>,
 				<div>
 					<Typography variant = "h6">
-						Bechdel does frame her and her father being "inversions" very explicitly at times.
+						I soon noticed "inversions" elsewhere.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						In these two panels, Alison is able to express herself and has fun pretending to be police, while her father, simultaneously, is being indicted by police.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Going back to the mirror scene, Bechdel does frame her and her father being "inversions" very explicitly at times.
 					</Typography>
 				</div>,
 				<div>
@@ -44,6 +54,8 @@ function App() {
 		    ]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
 				<img src={require("./img/page98Full.png")}/>,
+				<img src={require("./img/page160161Combined.png")}/>,
+				<img src={require("./img/page160161Combined.png")}/>,
 				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>,
 				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>
 			]}/>

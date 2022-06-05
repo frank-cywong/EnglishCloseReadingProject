@@ -130,6 +130,16 @@ function App() {
 					<Typography variant = "h6">
 						And also by how the children in these panels behave, with one of them having a spiked hairstyle (referring to the punk rock movement at the time), having sunglasses on indoors, and wearing a Bugs Bunny t-shirt (a reference to the new cartoons of the television era).
 					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						The influence of the Gryglewiczes on Bechdel was important, as their story of breaking boundaries themselves (doctoral education for women) and also being open about sex, helped give Bechdel support to express her gender identity.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						This support is another field in which Bechdel and her father are "inversions".<br /><br />Unlike the Gryglewiczes, her father hides his gender identity and sexuality, while her mother stands to the side and doesn't give any support to either of them (and doesn't even appear in pages 160 and 161).
+					</Typography>
 				</div>
 			]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
@@ -153,7 +163,9 @@ function App() {
 				<img src={require("./img/page160161CombinedCarComp.png")}/>,
 				<img src={require("./img/bulkComparisonCropped.png")}/>,
 				<img src={require("./img/page160Doctorate.png")}/>,
-				<img src={require("./img/page160Punk.png")}/>
+				<img src={require("./img/page160Punk.png")}/>,
+				<img src={require("./img/page160Doctorate.png")}/>,
+				<img src={require("./img/page98Mother.png")}/>
 			]}/>
 		</div>
 	</ThemeProvider>

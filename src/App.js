@@ -140,6 +140,26 @@ function App() {
 					<Typography variant = "h6">
 						This support is another field in which Bechdel and her father are "inversions".<br /><br />Unlike the Gryglewiczes, her father hides his gender identity and sexuality, while her mother stands to the side and doesn't give any support to either of them (and doesn't even appear in pages 160 and 161).
 					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Looking at Bechdel's father gives us an idea of how Alison might have ended up differently otherwise.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Here, the panels are set in darkness, and in only one panel is Bechdel's father visible. The rest of the time, he is being framed as hiding behind the glass of the car, or as just a silhouette in the shadows.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						His homosexuality is framed as his "dark side" which must be hidden away, with Bechdel alluding to this view of her father by mentioning the story of <a href="https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde" target="_blank" rel="noreferrer noopener" style={{color: "white"}}>Dr. Jekyll and Mr. Hyde</a>, which involves a person with two sides, the good side being Dr. Jekyll, and the hidden bad and criminal one being Mr. Hyde.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Even during his trial, his homosexuality was never explicitly mentioned, as it was seen as too taboo to even be said out loud.
+					</Typography>
 				</div>
 			]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
@@ -165,7 +185,11 @@ function App() {
 				<img src={require("./img/page160Doctorate.png")}/>,
 				<img src={require("./img/page160Punk.png")}/>,
 				<img src={require("./img/page160Doctorate.png")}/>,
-				<img src={require("./img/page98Mother.png")}/>
+				<img src={require("./img/page98Mother.png")}/>,
+				<img src={require("./img/page161Full.png")}/>,
+				<img src={require("./img/page161Darkness.png")}/>,
+				<img src={require("./img/page160Jekyll.png")} style = {{width: "75%"}}/>,
+				<img src={require("./img/page180Top.png")} style = {{height: "75%"}}/>
 			]}/>
 		</div>
 	</ThemeProvider>

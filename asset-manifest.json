@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EnglishCloseReadingProject/static/css/main.704ff8e8.css",
-    "main.js": "/EnglishCloseReadingProject/static/js/main.a73fbf85.js",
+    "main.js": "/EnglishCloseReadingProject/static/js/main.6698be39.js",
     "static/media/page160161Combined.png": "/EnglishCloseReadingProject/static/media/page160161Combined.5cb579eab682fc03ca4b.png",
     "static/media/bulkComparisonCropped.png": "/EnglishCloseReadingProject/static/media/bulkComparisonCropped.c7e93e955bb87732b1ba.png",
     "static/media/page98Cross.png": "/EnglishCloseReadingProject/static/media/page98Cross.7731d9948ea9fe89eec0.png",
@@ -11,6 +11,7 @@
     "static/media/page161Full.png": "/EnglishCloseReadingProject/static/media/page161Full.90975b6fe2bc203f255f.png",
     "static/media/page160Punk.png": "/EnglishCloseReadingProject/static/media/page160Punk.09ad0d2bc56ce592040d.png",
     "static/media/page160Doctorate.png": "/EnglishCloseReadingProject/static/media/page160Doctorate.29144f04a4a6ba482109.png",
+    "static/media/page98Mother.png": "/EnglishCloseReadingProject/static/media/page98Mother.475e3725cb26c85be19a.png",
     "static/media/page98Top.png": "/EnglishCloseReadingProject/static/media/page98Top.9d28b21cfd96318c41bc.png",
     "static/media/page160161CombinedCarComp.png": "/EnglishCloseReadingProject/static/media/page160161CombinedCarComp.b402a3fbc2f95de0cde7.png",
     "static/media/page160LowerHighlighted.png": "/EnglishCloseReadingProject/static/media/page160LowerHighlighted.b25a4b49fef185955fc7.png",
@@ -18,10 +19,10 @@
     "static/media/page98Inversions.png": "/EnglishCloseReadingProject/static/media/page98Inversions.dd9e73186bc4007e2fca.png",
     "index.html": "/EnglishCloseReadingProject/index.html",
     "main.704ff8e8.css.map": "/EnglishCloseReadingProject/static/css/main.704ff8e8.css.map",
-    "main.a73fbf85.js.map": "/EnglishCloseReadingProject/static/js/main.a73fbf85.js.map"
+    "main.6698be39.js.map": "/EnglishCloseReadingProject/static/js/main.6698be39.js.map"
   },
   "entrypoints": [
     "static/css/main.704ff8e8.css",
-    "static/js/main.a73fbf85.js"
+    "static/js/main.6698be39.js"
   ]
 }

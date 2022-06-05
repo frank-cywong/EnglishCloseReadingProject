@@ -38,7 +38,7 @@ function App() {
 				</div>,
 				<div>
 					<Typography variant = "h6">
-						In these two panels, Alison is able to express herself and has fun pretending to be police, while her father, simultaneously, is being indicted by police.
+						In the first panel, Alison is able to express herself and has fun pretending to be police. In the next one, the situation is inverted. As Alison is having fun, her father is being indicted by police.
 					</Typography>
 				</div>,
 				<div>
@@ -53,7 +53,7 @@ function App() {
 				</div>,
 				<div>
 					<Typography variant = "h6">
-						This panel's descriptions and imagery introduce the idea that they are "inversions" due to their views on gender and sexuality, both relative to each other, and relative to society.
+						This panel's descriptions and imagery introduce the idea that they are "inversions" due to their views on gender and sexuality relative to each other. She wants to be more masculine, and her father wants to be more feminine.
 					</Typography>
 				</div>,
 				<div>
@@ -65,17 +65,53 @@ function App() {
 					<Typography variant = "h6">
 						And also that of "cross-purposes" down below, which also relates with them cross-dressing, and them physically swapping locations between these two panels.
 					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						However, their gender identity and sexual orientation makes them not just "inversions" of each other, but also inverts relative to society.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Their "inverted" roles and desires compared to society is quite explicitly alluded to in page 160.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						In addition to Alison dressing up in typical male clothing as a police officer, a job largely dominated by males <a href="https://www.statista.com/statistics/195324/gender-distribution-of-full-time-law-enforcement-employees-in-the-us/"  target="_blank" rel="noreferrer noopener" style={{color: "white"}}>(even to this day)</a>,
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+					The panel also alludes to Saturnalia, a Roman festival which, among other things, included a relaxation of social norms and reversal of social roles. 
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						However, the 1970s weren't ancient Rome, and these "inversions" don't come without consequences, as is apparent in page 161, in which Alison's father is indicted by police for providing alcohol to a minor.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Yet, that wasn't the real crime here, which instead was the fact that he was in a romantic (and likely sexual) same-sex relationship with a minor. 
+					</Typography>
 				</div>
 		    ]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
 				<img src={require("./img/page98Full.png")}/>,
 				<img src={require("./img/page160161Combined.png")}/>,
 				<img src={require("./img/page160161Combined.png")}/>,
-				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>,
-				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>,
-				<img src={require("./img/page98Top.png")} style={{height: "90%"}}/>,
-				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>,
-				<img src={require("./img/page98Cross.png")} />
+				<img src={require("./img/page98Inversions.png")} style={{width: "75%"}}/>,
+				<img src={require("./img/page98Inversions.png")} style={{width: "75%"}}/>,
+				<img src={require("./img/page98Top.png")} style={{height: "75%"}}/>,
+				<img src={require("./img/page98Inversions.png")} style={{width: "75%"}}/>,
+				<img src={require("./img/page98Cross.png")} />,
+				<img src={require("./img/page98Full.png")}/>,
+				<img src={require("./img/page160Full.png")}/>,
+				<img src={require("./img/page160LowerHighlighted.png")} style = {{height: "75%"}}/>,
+				<img src={require("./img/page160LowerHighlighted.png")} style = {{height: "75%"}}/>,
+				<img src={require("./img/page161Full.png")}/>,
+				<img src={require("./img/page161Full.png")}/>
 			]}/>
 		</div>
 	</ThemeProvider>

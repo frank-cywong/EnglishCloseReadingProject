@@ -48,7 +48,7 @@ function App() {
 				</div>,
 				<div>
 					<Typography variant = "h6">
-						Why does Bechdel frame her and her father like this?<br />How else does Bechdel frame them as being different from society?<br />What does this contrast and framing reveal?
+						Why does Bechdel frame her and her father like this?<br /><br />How else does Bechdel frame them as being different from society?<br /><br />What does this contrast and framing reveal?
 					</Typography>
 				</div>,
 				<div>
@@ -95,8 +95,43 @@ function App() {
 					<Typography variant = "h6">
 						Yet, that wasn't the real crime here, which instead was the fact that he was in a romantic (and likely sexual) same-sex relationship with a minor. 
 					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						However, this brings up another point, which is that Alison and her father have "inverted" environments.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Her father is surrounded by people with a more conservative view towards sexuality and gender.<br /><br />This is supported by Bechdel later alluding to Oscar Wilde's trial, which was almost 80 years before her father's, to show how the views of the people surrounding her father haven't changed since then.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						This contrasts with Bechdel's environment. The Gryglewiczes and her brothers provided her an outlet to express her gender identity without being judged with their more progressive views. 
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						This contrast is alluded to with details such as the Gryglewiczes' pickup truck;<br/><br />versus her father's station wagon,
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						As well as the international and modern aspect of the Gryglewiczes (whose names are of Polish origin and live next to a college fraternity house) and her brothers;<br/><br />versus her father's provincial trial in a small courthouse in rural Pennsylavnia.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						This modern-ness is also supported by other hints, like how they both have a doctoral degree, especially impressive feat for women given the social norms at the time;<br /><br />how they have nude art of themselves openly displayed (and how it's suggested they have even more);
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						And also by how the children in these panels behave, with one of them having a spiked hairstyle (referring to the punk rock movement at the time), having sunglasses on indoors, and wearing a Bugs Bunny t-shirt (a reference to the new cartoons of the television era).
+					</Typography>
 				</div>
-		    ]} imageData = {[
+			]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
 				<img src={require("./img/page98Full.png")}/>,
 				<img src={require("./img/page160161Combined.png")}/>,
@@ -111,7 +146,14 @@ function App() {
 				<img src={require("./img/page160LowerHighlighted.png")} style = {{height: "75%"}}/>,
 				<img src={require("./img/page160LowerHighlighted.png")} style = {{height: "75%"}}/>,
 				<img src={require("./img/page161Full.png")}/>,
-				<img src={require("./img/page161Full.png")}/>
+				<img src={require("./img/page161Full.png")}/>,
+				<img src={require("./img/page161Full.png")}/>,
+				<img src={require("./img/oscarWildeReference.png")} style = {{height: "75%"}}/>,
+				<img src={require("./img/page160Full.png")}/>,
+				<img src={require("./img/page160161CombinedCarComp.png")}/>,
+				<img src={require("./img/bulkComparisonCropped.png")}/>,
+				<img src={require("./img/page160Doctorate.png")}/>,
+				<img src={require("./img/page160Punk.png")}/>
 			]}/>
 		</div>
 	</ThemeProvider>

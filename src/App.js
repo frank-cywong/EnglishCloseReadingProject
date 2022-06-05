@@ -50,6 +50,21 @@ function App() {
 					<Typography variant = "h6">
 						Why does Bechdel frame her and her father like this?<br />How else does Bechdel frame them as being different from society?<br />What does this contrast and framing reveal?
 					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						This panel's descriptions and imagery introduce the idea that they are "inversions" due to their views on gender and sexuality, both relative to each other, and relative to society.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Which is also supported by the wordplay here between "inverts" (a dated term for homosexuals) and the "inversions" of she and her father...
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						And also that of "cross-purposes" down below, which also relates with them cross-dressing, and them physically swapping locations between these two panels.
+					</Typography>
 				</div>
 		    ]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
@@ -57,7 +72,10 @@ function App() {
 				<img src={require("./img/page160161Combined.png")}/>,
 				<img src={require("./img/page160161Combined.png")}/>,
 				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>,
-				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>
+				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>,
+				<img src={require("./img/page98Top.png")} style={{height: "90%"}}/>,
+				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>,
+				<img src={require("./img/page98Cross.png")} />
 			]}/>
 		</div>
 	</ThemeProvider>

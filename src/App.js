@@ -32,16 +32,14 @@ function App() {
 					</Typography>
 				</div>,
 				<div>
-					Lorem3 ipsum dolor sit amet <br />
-					asdasd3
+					<Typography variant = "h6" style={{width: "95%"}}>
+						Bechdel does frame her and her father being "inversions" very explicitly at times, and does so multiple times throughout the book.
+					</Typography>
 				</div>
 		    ]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
 				<img src={require("./img/page98Full.png")}/>,
-				<div>
-					Lorem3 ipsum dolor sit amet <br />
-					asdasd3as
-				</div>
+				<img src={require("./img/page98Inversions.png")}/>
 			]}/>
 		</div>
 	</ThemeProvider>

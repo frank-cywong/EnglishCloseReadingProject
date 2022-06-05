@@ -123,7 +123,7 @@ function App() {
 				</div>,
 				<div>
 					<Typography variant = "h6">
-						This modern-ness is also supported by other hints, like how they both have a doctoral degree, especially impressive feat for women given the social norms at the time;<br /><br />how they have nude art of themselves openly displayed (and how it's suggested they have even more);
+						This modern aspect is also supported by other hints, like how they both have a doctoral degree, an especially impressive feat for women given the social norms at the time;<br /><br />how they have nude art of themselves openly displayed (and how it's suggested they have even more);
 					</Typography>
 				</div>,
 				<div>

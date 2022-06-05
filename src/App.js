@@ -28,18 +28,24 @@ function App() {
 				</div>,
 				<div>
 					<Typography variant = "h6">
-						I first noticed these "inversions" in this scene with the mirror. My interest in physics (mirrors) and mathematics (geometric inversions) made this scene stay in my head, and I soon noticed more inversions elsewhere.
+						I first noticed these "inversions" in this scene with the mirror. My interest in physics (mirrors) and mathematics (<a href="https://en.wikipedia.org/wiki/Inversive_geometry#Inversion_in_a_circle" target="_blank" rel="noreferrer noopener" style={{color: "white"}}>geometric inversions</a>) made this scene stay in my head, and I soon noticed more inversions elsewhere.
 					</Typography>
 				</div>,
 				<div>
-					<Typography variant = "h6" style={{width: "95%"}}>
-						Bechdel does frame her and her father being "inversions" very explicitly at times, and does so multiple times throughout the book.
+					<Typography variant = "h6">
+						Bechdel does frame her and her father being "inversions" very explicitly at times.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Why does Bechdel frame her and her father like this?<br />How else does Bechdel frame them as being different from society?<br />What does this contrast and framing reveal?
 					</Typography>
 				</div>
 		    ]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
 				<img src={require("./img/page98Full.png")}/>,
-				<img src={require("./img/page98Inversions.png")}/>
+				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>,
+				<img src={require("./img/page98Inversions.png")} style={{width: "90%"}}/>
 			]}/>
 		</div>
 	</ThemeProvider>

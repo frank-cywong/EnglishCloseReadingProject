@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/EnglishCloseReadingProject/static/css/main.704ff8e8.css",
-    "main.js": "/EnglishCloseReadingProject/static/js/main.bfda75b0.js",
+    "main.css": "/EnglishCloseReadingProject/static/css/main.fe622d70.css",
+    "main.js": "/EnglishCloseReadingProject/static/js/main.110e1c0c.js",
+    "static/media/page98160161Combined.png": "/EnglishCloseReadingProject/static/media/page98160161Combined.c0835b94aed974b3ea5e.png",
     "static/media/page160161Combined.png": "/EnglishCloseReadingProject/static/media/page160161Combined.5cb579eab682fc03ca4b.png",
     "static/media/page220221Combined.png": "/EnglishCloseReadingProject/static/media/page220221Combined.2b5dcb095ca204d943c3.png",
     "static/media/page220221CombinedInversion.png": "/EnglishCloseReadingProject/static/media/page220221CombinedInversion.ec7e37bfb75045961b74.png",
@@ -21,14 +22,15 @@
     "static/media/page160161CombinedCarComp.png": "/EnglishCloseReadingProject/static/media/page160161CombinedCarComp.b402a3fbc2f95de0cde7.png",
     "static/media/page160LowerHighlighted.png": "/EnglishCloseReadingProject/static/media/page160LowerHighlighted.b25a4b49fef185955fc7.png",
     "static/media/oscarWildeReference.png": "/EnglishCloseReadingProject/static/media/oscarWildeReference.03adfca2789ee56ef37b.png",
+    "static/media/page160BottomHighlighted.png": "/EnglishCloseReadingProject/static/media/page160BottomHighlighted.539bf2269838a97b17f8.png",
     "static/media/page160Jekyll.png": "/EnglishCloseReadingProject/static/media/page160Jekyll.3d872cd39ac031045944.png",
     "static/media/page98Inversions.png": "/EnglishCloseReadingProject/static/media/page98Inversions.dd9e73186bc4007e2fca.png",
     "index.html": "/EnglishCloseReadingProject/index.html",
-    "main.704ff8e8.css.map": "/EnglishCloseReadingProject/static/css/main.704ff8e8.css.map",
-    "main.bfda75b0.js.map": "/EnglishCloseReadingProject/static/js/main.bfda75b0.js.map"
+    "main.fe622d70.css.map": "/EnglishCloseReadingProject/static/css/main.fe622d70.css.map",
+    "main.110e1c0c.js.map": "/EnglishCloseReadingProject/static/js/main.110e1c0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.704ff8e8.css",
-    "static/js/main.bfda75b0.js"
+    "static/css/main.fe622d70.css",
+    "static/js/main.110e1c0c.js"
   ]
 }

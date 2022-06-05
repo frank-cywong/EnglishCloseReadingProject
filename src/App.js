@@ -160,6 +160,31 @@ function App() {
 					<Typography variant = "h6">
 						Even during his trial, his homosexuality was never explicitly mentioned, as it was seen as too taboo to even be said out loud.
 					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Bechdel puts the part where her father explicitly tells her about his sexuality near the very end of the book.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						She also describes it as "not [being a] reunion", but rather frames herself as the parent listening to her father's story of his past.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						This in itself is another "inversion", as Alison assumes a parental figure in giving her father support to be open about expressing his identity like she did.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Chronologically, shortly after this, Bechdel's father dies.<br /><br />In the end, she frames this as Icarus "hurtling into the sea", another inversion of parental roles, but also mentions that he helped "catch [her] when [she] leapt".
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Perhaps seeing her father hide his identity in darkness helped push her to show her identity openly in broad daylight.
+					</Typography>
 				</div>
 			]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
@@ -189,7 +214,12 @@ function App() {
 				<img src={require("./img/page161Full.png")}/>,
 				<img src={require("./img/page161Darkness.png")}/>,
 				<img src={require("./img/page160Jekyll.png")} style = {{width: "75%"}}/>,
-				<img src={require("./img/page180Top.png")} style = {{height: "75%"}}/>
+				<img src={require("./img/page180Top.png")} style = {{height: "75%"}}/>,
+				<img src={require("./img/page220221Combined.png")}/>,
+				<img src={require("./img/page220221CombinedInversion.png")}/>,
+				<img src={require("./img/page220221CombinedInversion.png")}/>,
+				<img src={require("./img/page232Full.png")}/>,
+				<img src={require("./img/page160161Combined.png")}/>
 			]}/>
 		</div>
 	</ThemeProvider>

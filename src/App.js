@@ -220,6 +220,18 @@ function App() {
 					<Typography variant = "h6">
 						That the more open-minded and socially progressive environment Bechdel was surrounded by allowed her to be open about her identity, while her father was unable to escape the traditional social norms he grew up with.
 					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h2" style={{fontWeight: 600}}>
+						End.
+					</Typography>
+					<div onClick={() => {window.scroll({
+						top: 0,
+						left: 0,
+						behavior: "smooth"
+					})}}>
+						<p style={{textDecoration: "underline", cursor: "pointer"}}>Return to start.</p>
+					</div>
 				</div>
 			]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
@@ -261,7 +273,25 @@ function App() {
 				<img src={require("./img/page160BottomHighlighted.png")} style = {{width: "75%"}}/>,
 				<img src={require("./img/page160Full.png")}/>,
 				<img src={require("./img/page160Full.png")}/>,
-				<img src={require("./img/page98160161Combined.png")}/>
+				<img src={require("./img/page98160161Combined.png")}/>,
+				<div style={{display: "block", width: "90%", height: "90%", alignItems: "left", justifyContents: "left", textAlign: "left"}}>
+					<Typography variant="h4">Sources:</Typography>
+					<p>
+						Bechdel, Alison. Fun Home.<br />
+						"Bugs Bunny - Cartoon Character". <a href="https://www.britannica.com/topic/Bugs-Bunny" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://www.britannica.com/topic/Bugs-Bunny</a>.<br />
+						"Gryglewicz Surname". <a href="https://forebears.io/surnames/gryglewicz" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://forebears.io/surnames/gryglewicz</a>.<br />
+						"Liberty Spikes". <a href="https://en.wikipedia.org/wiki/Liberty_spikes" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://en.wikipedia.org/wiki/Liberty_spikes</a>.<br />
+						"Paella". <a href="https://en.wikipedia.org/wiki/Paella" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://en.wikipedia.org/wiki/Paella</a>.<br />
+						"Pickup Truck". <a href="https://en.wikipedia.org/wiki/Pickup_truck" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://en.wikipedia.org/wiki/Pickup_truck</a>.<br />
+						"Polish Language: Phonology". <a href="https://en.wikipedia.org/wiki/Polish_language#Phonology" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://en.wikipedia.org/wiki/Polish_language#Phonology</a>.<br />
+						"Oscar Wilde". <a href="https://www.britannica.com/biography/Oscar-Wilde" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://www.britannica.com/biography/Oscar-Wilde</a>.<br />
+						"Regina v. Wilde". <a href="https://en.wikipedia.org/wiki/Oscar_Wilde#Regina_v._Wilde" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://en.wikipedia.org/wiki/Oscar_Wilde#Regina_v._Wilde</a>.<br />
+						"Saturnalia". <a href="https://en.wikipedia.org/wiki/Saturnalia" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://en.wikipedia.org/wiki/Saturnalia</a>.<br />
+						"Saturnalia (Roman Festival)". <a href="https://www.britannica.com/topic/Saturnalia-Roman-festival" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://www.britannica.com/topic/Saturnalia-Roman-festival</a>.<br />
+						"Station Wagon". <a href="https://en.wikipedia.org/wiki/Station_wagon" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://en.wikipedia.org/wiki/Station_wagon</a>.<br />
+						"Strange Case of Dr Jekyll and Mr Hyde". <a href="https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde" target="_blank" rel="noreferrer noopener" style={{color: "black"}}>https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde</a>.<br />
+					</p>
+				</div>
 			]}/>
 		</div>
 	</ThemeProvider>

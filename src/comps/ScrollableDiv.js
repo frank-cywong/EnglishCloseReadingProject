@@ -5,25 +5,43 @@ const timers = require('timers-promises');
 
 const ScrollableDiv = ({textData, imageData}) => {
 	const [curElement, setCurElement] = useState(-1);
+	const [curScrolling, setCurScrolling] = useState(false);
+	const [forceScrollCheck, setForceScrollCheck] = useState(false);
 	const ref = useRef(null);
-	const updateCurElement = () => {return(Math.floor((10 + window.scrollY - document.getElementById("AppBarID").clientHeight) / ref.current.firstChild.firstChild.clientHeight))};
-	const moveBackward = () => {const newCurElement = updateCurElement(); if(newCurElement >= 0){setCurElement(newCurElement - 1);} else {setCurElement(newCurElement);}};
-	const moveForward = () => {const newCurElement = updateCurElement(); if(newCurElement < textData.length - 1){setCurElement(newCurElement + 1);} else {setCurElement(newCurElement);}};
+	const updateCurElement = () => {
+		const computed = (Math.floor((20 + window.scrollY - document.getElementById("AppBarID").clientHeight) / ref.current.firstChild.firstChild.clientHeight))
+		//console.log("computed: " + computed);
+		//console.log("current scrolling" + curScrolling);
+		if(curScrolling){
+			if(computed === curElement){
+				setCurScrolling(false);
+			}
+			return curElement;
+		}
+		return computed;
+	};
+	const moveBackward = () => {const newCurElement = updateCurElement(); if(newCurElement >= 0){setCurElement(newCurElement - 1); setForceScrollCheck(true);} else {setCurElement(newCurElement);}};
+	const moveForward = () => {const newCurElement = updateCurElement(); if(newCurElement < textData.length - 1){setCurElement(newCurElement + 1); setForceScrollCheck(true);} else {setCurElement(newCurElement);}};
 	useEffect(() => {
 		//console.log(curElement);
 		//console.log(ref ? "yes" : "no");
-		if(ref.current.firstChild.firstChild){
+		setForceScrollCheck(false);
+		if(!curScrolling && ref.current.firstChild.firstChild){
 			ref.current.focus();
+			setCurScrolling(true);
+			//console.log("scrollY: " + window.scrollY);
+			//console.log("target: " + (ref.current.firstChild.firstChild.clientHeight * curElement + document.getElementById("AppBarID").clientHeight));
 			window.scroll({
 				top: ref.current.firstChild.firstChild.clientHeight * curElement + document.getElementById("AppBarID").clientHeight,
 				left: 0,
 				behavior: 'smooth'
 			});
+			setTimeout(() => {setCurScrolling(false);}, 300);
 			//console.log(ref.current.firstChild.firstChild);
 			//console.log(ref.current.firstChild.firstChild.scrollTop);
 			//console.log("client height: " + ref.current.firstChild.firstChild.clientHeight);
 		}
-	}, [curElement]);
+	}, [curElement, forceScrollCheck]);
 	useEffect(() => {
 		const interval = setInterval(() => {
 			if(ref.current){

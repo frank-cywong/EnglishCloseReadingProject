@@ -185,6 +185,41 @@ function App() {
 					<Typography variant = "h6">
 						Perhaps seeing her father hide his identity in darkness helped push her to show her identity openly in broad daylight.
 					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Going back to page 98, she openly expresses her desire to be more masculine, while her father projects his desire to be more feminine onto her, being afraid to openly express his own desire.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						In fact, across all 3 pages, Alison can be seen expressing her own identity in well-lit environments in front of other people, while her father can only express his desires in the shadows obscured by darkness.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						In these 3 pages, the only case where Alison or her father is able to have fun openly is in page 160 in the middle, where Alison is surrounded by supportive people who she is able to have fun roleplaying with, including openly "inverting" gender and social role.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						This support and openness towards gender identity and sex is further shown by how the children in the lower panel are neither fazed or annoyed by Alison dressing in male clothing as a police officer, nor the open depiction of sex in the Gryglewiczes' nude painting.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						The open-mindeded-ness of the people around Bechdel and the sympathy after seeing how her father was unable to have the same environment as she did made Bechdel able to express her gender and sexual identity openly (and even write this book all about it).
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Maybe this is the "true inversion" of the story.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						That the more open-minded and socially progressive environment Bechdel was surrounded by allowed her to be open about her identity, while her father was unable to escape the traditional social norms he grew up with.
+					</Typography>
 				</div>
 			]} imageData = {[
 				<img src={require("./img/bookCover.png")}/>,
@@ -219,7 +254,14 @@ function App() {
 				<img src={require("./img/page220221CombinedInversion.png")}/>,
 				<img src={require("./img/page220221CombinedInversion.png")}/>,
 				<img src={require("./img/page232Full.png")}/>,
-				<img src={require("./img/page160161Combined.png")}/>
+				<img src={require("./img/page160161Combined.png")}/>,
+				<img src={require("./img/page98Full.png")}/>,
+				<img src={require("./img/page98160161Combined.png")}/>,
+				<img src={require("./img/page98160161Combined.png")}/>,
+				<img src={require("./img/page160BottomHighlighted.png")} style = {{width: "75%"}}/>,
+				<img src={require("./img/page160Full.png")}/>,
+				<img src={require("./img/page160Full.png")}/>,
+				<img src={require("./img/page98160161Combined.png")}/>
 			]}/>
 		</div>
 	</ThemeProvider>

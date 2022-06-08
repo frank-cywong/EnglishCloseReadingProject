@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EnglishCloseReadingProject/static/css/main.fe622d70.css",
-    "main.js": "/EnglishCloseReadingProject/static/js/main.28e32eb9.js",
+    "main.js": "/EnglishCloseReadingProject/static/js/main.f22a99c2.js",
     "static/media/page98160161Combined.png": "/EnglishCloseReadingProject/static/media/page98160161Combined.c0835b94aed974b3ea5e.png",
     "static/media/page160161Combined.png": "/EnglishCloseReadingProject/static/media/page160161Combined.5cb579eab682fc03ca4b.png",
     "static/media/page220221Combined.png": "/EnglishCloseReadingProject/static/media/page220221Combined.2b5dcb095ca204d943c3.png",
@@ -27,10 +27,10 @@
     "static/media/page98Inversions.png": "/EnglishCloseReadingProject/static/media/page98Inversions.dd9e73186bc4007e2fca.png",
     "index.html": "/EnglishCloseReadingProject/index.html",
     "main.fe622d70.css.map": "/EnglishCloseReadingProject/static/css/main.fe622d70.css.map",
-    "main.28e32eb9.js.map": "/EnglishCloseReadingProject/static/js/main.28e32eb9.js.map"
+    "main.f22a99c2.js.map": "/EnglishCloseReadingProject/static/js/main.f22a99c2.js.map"
   },
   "entrypoints": [
     "static/css/main.fe622d70.css",
-    "static/js/main.28e32eb9.js"
+    "static/js/main.f22a99c2.js"
   ]
 }

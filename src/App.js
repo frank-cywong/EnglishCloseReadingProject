@@ -148,7 +148,12 @@ function App() {
 				</div>,
 				<div>
 					<Typography variant = "h6">
-						Here, the panels are set in darkness, and in only one panel is Bechdel's father visible. The rest of the time, he is being framed as hiding behind the glass of the car, or as just a silhouette in the shadows.
+						If Alison did not get the support she received, she would not have been as open about expressing her identity, and would have hidden it like her father did.
+					</Typography>
+				</div>,
+				<div>
+					<Typography variant = "h6">
+						Bechdel frames her father hiding his sexuality by portraying him in darkness. Here, the panels are set in darkness, and in only one panel is Bechdel's father visible. The rest of the time, he is being framed as hiding behind the glass of the car, or as just a silhouette in the shadows.
 					</Typography>
 				</div>,
 				<div>
@@ -259,6 +264,7 @@ function App() {
 				<img src={require("./img/page160Doctorate.png")}/>,
 				<img src={require("./img/page98Mother.png")}/>,
 				<img src={require("./img/page161Full.png")}/>,
+				<img src={require("./img/page160161Combined.png")}/>,
 				<img src={require("./img/page161Darkness.png")}/>,
 				<img src={require("./img/page160Jekyll.png")} style = {{width: "75%"}}/>,
 				<img src={require("./img/page180Top.png")} style = {{height: "75%"}}/>,
